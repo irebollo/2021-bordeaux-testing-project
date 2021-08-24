@@ -1,7 +1,7 @@
 on: [push, pull_request]
 jobs:
   run-tests:
-    runs-on: ${{matrix.os}}
+    runs-on: ubuntu-recent
     steps:
     - name: Bla
       run:
