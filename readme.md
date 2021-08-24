@@ -5,7 +5,7 @@
 Make a file `logistic.py` and `test_logistic.py`. Implement the code
 for the logistic map:
 
-a) Implement the logistic function f(𝑥)=𝑟∗𝑥∗(1−𝑥) . Use `@parametrize`
+a) Implement the logistic map f(𝑥)=𝑟∗𝑥∗(1−𝑥) . Use `@parametrize`
 to test the function for the following cases:
 ```
   x=0.1, r=2.2 => f(x, r)=0.198
@@ -32,9 +32,9 @@ a) Write a numerical fuzzing test that checks that, for `r=1.5`, all
 starting points converge to the attractor `f(x, r) = 1/3` .
 
 b) Use `pytest.mark` to mark the tests from the previous exercise with one mark
-(they relate to the correct implementation of the logistic function) and the
+(they relate to the correct implementation of the logistic map) and the
 test from this exercise with another (relates to the behavior of the logistic
-function). Try executing first the first set of tests and then the second set of
+map). Try executing first the first set of tests and then the second set of
 tests separately.
 
 ## Exercise 3 -- Chaotic behavior
