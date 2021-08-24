@@ -1,8 +1,8 @@
 on: [push, pull_request]
-jobs:
-	run-tests:
-		steps:
-		- name: Bla
-			run:
-				pytest-3 -sv test_logistic.py
+jobs:s
+  run-tests:
+    steps:
+    - name: Bla
+      run:
+        pytest-3 -sv test_logistic.py
 
