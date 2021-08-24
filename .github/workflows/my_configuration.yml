@@ -1,6 +1,6 @@
 on: [push, pull_request]
 jobs:
-	run_tests:
+	run-tests:
 		steps:
 		- name: Bla
 			run:
